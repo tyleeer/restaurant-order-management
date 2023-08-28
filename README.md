@@ -8,8 +8,8 @@ Developed by using React, TypeScript, Tailwind CSS
 <h3>- Moblie:</h3>
 <div style="display: flex;">
 <img src="/src/imgs/mobile3.png" style="width: 20%">
-<img src="/src/imgs/mobile2.png" style="width: 20%">
 <img src="/src/imgs/mobile5.png" style="width: 20%">
+<img src="/src/imgs/mobile2.png" style="width: 20%">
 <img src="/src/imgs/mobile4.png" style="width: 20%">
 </div>
 
