@@ -29,9 +29,9 @@ const MenuCart = () => {
   return (
     <div
       id="menusCart"
-      className="fixed top-0 right-0 z-10 w-full h-full flex justify-end transition-all duration-500 translate-x-[100dvw]"
+      className="fixed top-0 right-0 z-10 w-full h-full bg-white flex justify-end transition-all duration-500 translate-x-[100dvw]"
     >
-      <section className="w-full max-w-[450px] flex flex-col py-2 px-4 gap-4  bg-white">
+      <section className="w-full max-w-[450px] flex flex-col py-2 px-4 gap-4 overflow-y-scroll">
         <button
           onClick={() => openCart("close")}
           className="fixed z-[2] top-2 right-2 text-[#10C157] hover:text-[#2a9053] text-[3rem]"
@@ -45,7 +45,7 @@ const MenuCart = () => {
               return (
                 <li
                   key={index}
-                  className="w-full relative p-2 bg-slate-200 text-black rounded-xl overflow-hidden flex items-center gap-2"
+                  className="w-full min-h-[150px] relative p-2 bg-slate-200 text-black rounded-xl overflow-hidden flex items-center gap-2"
                 >
                   <button className="hidden absolute top-2 right-2 text-[1.5rem] text-black hover:text-[#10C157]">
                     <BiSolidEdit />
